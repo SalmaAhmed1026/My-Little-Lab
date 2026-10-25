@@ -1,0 +1,155 @@
+/*body {
+    background-color: mediumorchid;
+}
+h3 {
+    color: rgb(33, 6, 57);
+}
+.tip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.engineer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about {
+    text-align: center;
+}
+.Skills {
+    text-align: center;
+}
+.Hobbies {
+    text-align: center;
+}
+.Dreams {
+    text-align: center;
+}
+.Contact {
+    text-align: center;
+    padding: 30px;
+}
+body {
+    background-color: #f8f5ff;
+    color: #30264d;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    color: #6c4ab6;
+    font-size: 36px;
+}
+h2{
+    color:#805ab5 ;
+}
+p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+nav {
+    margin: 25px;
+}
+nav a {
+    color: #6c4ab6;
+    text-decoration: none;
+    margin: 10px;
+}
+nav a:hover {
+    color: #e056a0;
+}
+nav a {
+    display: inline-block;
+    background-color: #e9ddff;
+    color: #6c4ab6;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+
+
+nav a :hover {
+    background-color: #6c4ab6;
+    color: white;
+}
+
+.Project-card {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 500px;
+    border-radius: 12px;
+    border: 1px solid #e0d5f5;
+}
+
+.details-button {
+    padding: 10px 16px;
+    border:none;
+    border-radius: 8px;
+    cursor:pointer;
+    font-size:16px;
+}
+.Project-card[hidden] {
+display:none;
+}
+
+
+.Project-card h3 {
+    color: #6c4ab6;
+}
+
+
+body {
+    background-color: white;
+    color: #222;
+    transition: background-color 0.3s, color 0.3s;
+}
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}*/
+:root{
+    color-scheme: light;
+    --page:#f7f5fb;
+    --surface: #fff;
+    --surface-soft:#0sebf8;
+    --ink:#20172b;
+    --muted:#766d80;
+    --line:#e8e1ee;
+    --accent:37951a8;
+    --accent-deep:#5e3d88;
+    --accent-pale:#ded0f0:;
+    --lime:#d7ef9b;
+    --dark:#241934;
+    --dark:#302442;
+    --shadow:0 20px 60px rgba(52,35,72,.09);
+    --font-display:'Manrope','Dm Sans',sans-serif;
+    --font-body:'DM Sans', sans-serif;
+    --content: 1160px;
+
+}
+. {box-sizing: border-box;}
+html {scroll-behavior: smooth; scroll-padding-top: 92px;}
+
