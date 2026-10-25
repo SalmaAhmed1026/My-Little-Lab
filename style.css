@@ -1,4 +1,4 @@
-/*body {
+body {
     background-color: mediumorchid;
 }
 h3 {
@@ -129,8 +129,8 @@ body.dark-mode {
 
 html {
     scroll-behavior: smooth;
-}*/
-:root{
+}
+/*:root{
     color-scheme: light;
     --page:#f7f5fb;
     --surface: #fff;
@@ -151,5 +151,5 @@ html {
 
 }
 . {box-sizing: border-box;}
-html {scroll-behavior: smooth; scroll-padding-top: 92px;}
+html {scroll-behavior: smooth; scroll-padding-top: 92px;}/*
 

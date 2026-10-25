@@ -1,4 +1,4 @@
-/*function showPage(pageId) {
+function showPage(pageId) {
     let pages =
     document.querySelectorAll(".page");
     pages.forEach(function(page){
@@ -76,9 +76,9 @@ document.getElementById(pageId).hidden = false;
 
             }
          }
-*/
 
-const body = document.body;
+
+/*const body = document.body;
 const themeButton = document.getElementById("theme-toggle");
 const menuButton = document.getElementById('menu-toggle');
 const navigation = document.getElementById('primary-nav');
@@ -88,5 +88,5 @@ function setTheme(dark){
     themeButton.setAttribute('aria-label',dark? 'Swich to light mode' : 'Swich to dark mode');
     themeButton.title=dark ? 'Swich to light mode':'Swich to dark mode';
     document.querySelector('meta[name="theme-color"]').content = dark? '#17131d': '#f7f5fb';
-    
-}
+
+}*/
