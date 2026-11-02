@@ -12,3 +12,11 @@ There is also an Opportunity Archive to highlight some programs and training exp
 I used HTML to build the website, CSS to design and style it, and JavaScript to add interactive features.
 
 I wanted to combine a traditional portfolio with my own creative ideas and an Antique-inspired design that brings together old computer aesthetics and modern technology.
+
+## How to Run
+
+You can visit the live website using the demo link.
+
+You can also download or clone this repository, open the project folder, and run it by opening the index.html file in your browser.
+
+No additional installation is required.
