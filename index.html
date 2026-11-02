@@ -1,76 +1,20 @@
-<!--<!DOCTYPE html>
-
-    <html>
-
-<html lang="en" dir="ltr">
-    
-    <head>
-        <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <meta name="theme-color" content="#f7f5fb"/>
-        <meta name="description" content="meet salma"- an Egypptian student exploring mechatronics, robotics, technology, and ideas for a better futur."/>
-        <meta property="og:type" content="website"/>
-        <meta property="og:title" content="Salma-curios mind, future engineer"/>
-        <meta property="og:description" content="A personal portfolio about mechatronics, technology, projects, and big ideas."/>
-        <title>Salma| personal portfolio</title>
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
-        <link rel="preconnect" href="https://fonts.googleapis.com"/>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
-        <link rel="stylesheet" hreh="/style.css"/>
-        <script src="/script.js" defer></script>
-    </head>
-    <body>
-        <a class="skip-link" href="#main">Skip to content</a>
-        <header class="site-header" id="top">
-            <div class="header-inner">
-                <a class="brand" href="#top" aria-label="Salma-home">
-                    <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
-                    <span class="brand-name">Salma<span class=brand-dot></span></span>
-                
-                </a>
-                <button class="menu-toggle" id="menu-toggle"type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation">
-                    <span></span><span></span>
-                </button>
-                <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
-                    <a href="#about">About</a>
-                    <a href="#skills">Skills</a>
-                    <a href="#projects">Projects</a>
-                    <a href="#journey">My path</a>
-                    <a href="#contact">Contact</a>
-
-
-
-            
-                </nav> 
-                <div class="header-actions">
-                    <button class="icon-button theme-button" id="theme-toggle" type="button" aria-label="Swich to dark mode" title="Swich theme">
-                        <svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.2 15.2A8.4 8.4 0 0 1 8.8 3.8 8.5 8.5 0 1 0 20.2 15.2Z"/></svg>
-                        <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93|1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07|1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
-
-    
-                    </button>
-                </div>
-            </div>
-        </header>
-    </body>
-
-
-
-
-
-<script src="script.js"></script>
-    
-</html>-->
 <!DOCTYPE html>
-<html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>My-Little-Lab</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
 
     <body>
 
-    
+    <button id="theme-toggle" type="button">
+    Dark Mode
+</button>
 
-<link rel="stylesheet" href="style.css">
+
 <div class= "tip">
 
     <h1>Welome to my little lab, This is a small place for my big ideas</h1>
@@ -93,23 +37,23 @@
 -->
 
 <nav>
-    <a href="#"
+    <a href="#home"
     onclick="showPage('home')">Home</a>
 
-    <a href="#"
-    onclick="showPage('about')">about</a>
+    <a href="#about"
+    onclick="showPage('about')">About</a>
 
-    <a href="#"
-    onclick="showPage('Skills')">Skills</a>
+    <a href="#skills"
+    onclick="showPage('skills')">Skills</a>
     
-    <a href="#"
-    onclick="showPage('Projects')">Projects</a>
+    <a href="#projects"
+    onclick="showPage('projects')">Projects</a>
     
-<a href="#"
-    onclick="showPage('dream')">Dreams</a>
+<a href="#dreams"
+    onclick="showPage('dreams')">Dreams</a>
 
-    <a href="#"
-    onclick="showPage('Contact')">Contact</a>
+    <a href="#contact"
+    onclick="showPage('contact')">Contact</a>
     
 
 </nav>
@@ -117,7 +61,6 @@
 
 
 
-</section>
 
 <section class="engineer">
     <h1> Hi, I am Salma</h1>
@@ -127,31 +70,23 @@
     <h2>About Me</h2>
     <P>I am an Egyptian student interested in Mechatronics & Technology.</P>
 </section>
-<section id="Skills" class="Page">
+<section id="skills" class="Page">
 <h2>My Skills</h2>
 <p>Python, HTML, CSS, Arduino, Robotics, AI</p>
 
 </section>
-<section id="Projects" class="page" hidden>
-    <h2>My Projects</h2>
-    <p>Here, you can explore some of my projects in Technology and engineering</p>
-</section>
-
-<section id="home" class="page">
-    <h2>Hi, I am Salma</h2>
-
-</section>
-
-<section id="about" class="Page" hidden></section>
 
 
 
+<!--<section id="dreams" class="page"></section>-->
+<section id="contact" class="page"></section>
 
-<section id="Projects" class="Page">
+
+<section id="projects" class="Page">
 <h2> My Projects</h2>
 <p>Here, you can explore some of my projects n Technology, robotics, and renewable energy.
 </p>
-
+</section>
 <div class="project-card">
     <h3>smart solar energy system</h3>
     <p>
@@ -165,7 +100,7 @@
         >
         Learn More
     </button>
-        <div id="solar-details"hidden>
+        <div id="solar-details" hidden>
             <p>
                 this project explore solar tracking, energy storage, smart Technologies for sustainable energy.
             </p>
@@ -200,7 +135,7 @@
 
 </section>
 
-<section class ="Dreams">
+<section id="dreams" class ="page">
 <h2> My Dreams</h2>
 <p>My dream is to become a Mechatronics engineer and start start my own business</p>
 
@@ -210,7 +145,37 @@
 
 <h2>Contact Me</h2>
 <p>let's connect and share ideas!</p>
-<a href="#">LinkedIn</a>
+<a href="https://www.linkedin.com/in/salma-ahmed-3a859637a?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noreferrer">
+    LinkedIn
+</a>
+
+
+<h3>Send Me a Message</h3>
+
+<form id="contact-form">
+    <input
+    type="text"
+    id="contact-name"
+    placeholder="Your Name"
+    required
+    >
+<input
+type="email"
+id="contact-email"
+placeholder="Your Email"
+required
+>
+<textarea
+id="contact-message"
+placeholder="Write your message here..."
+rows="5"
+required></textarea>
+ 
+<button type="submit">
+    Send Message
+</button>
+
+</form>
 
 
 
@@ -219,4 +184,469 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+<!--idea generetor section-->
+<section id="idea-generator" class="new-section">
+    <h2>Need a Project Idea?</h2>
+    <p> discover a new technology project idea and get inspired To build something amazing!</p>
+    <div class="idea-card">
+        <h3 id="idea-title">your next idea is waiting</h3>
+        <p id="idea-description">click the button to discover your next project</p>
+        <button id="idea-button" type="button">Genetare an idea</button>
+    </div>
+</section>
+<!--random fact section-->
+<section id="random-fact" class="new-section">
+    <h2>A little Fact About Me</h2>
+    <p>Want to know something about me?
+        Click the button and discover
+    </p>
+<div class="fact-card">
+    <div id="fact-emoji">💜</div>
+    <p id="fact-text">
+        Click below to discover a little fact about me!
+    </p>
+    <button id="fact-button" type="button">
+        Tell Me something!
+    </button>
+</div>
+</section>
+
+<section id="theme-customizer" class="new-section">
+    <h2> customize your experience</h2>
+    <p>choose your favorite color for my website!</p>
+    <div class="theme-buttons">
+       <button class="theme-button" data-theme="purple">
+    </button>
+    <button class="theme-button" data-theme="blue">
+    </button>    
+     <button class="theme-button" data-theme="green">
+    </button>
+    </div>
+    <p id="theme-message" aria-live="polite">
+        your website, your style
+    </p>
+</section>
+
+
+
+
+<section id="featured-projects" class="featured-section">
+<div class="featured-header">
+    <p class="section-label">My Work</p>
+    <h2>featured projects</h2>
+    <p class="featured-description">Here are some of my ideas and my projects I am exploring in technology and engneering</p>
+
+</div>
+<a href="#projects" class="view-all-link"> 
+    View All Projects
+</a>
+<div class="featured-grid">
+
+
+</div>
+
+<article class="featured-card">
+    <div class="project-number">01 / ENERGY</div>
+    <h3>smart solar energy system</h3>
+    <p>Exploring smart technologies that can improve solar energy collection, storage, and efficiency</p>
+    <div class="project-tags">
+        <span>Solar Energy</span>
+        <span>AI</span>
+        <span>Research</span>
+    </div>
+</article>
+<article class="featured-card">
+    <div class="project-number">02 / ROBOTICS</div>
+    <h3>Metal Detection Robot</h3>
+    <p>
+        Exploring the design of a robot that can detect metal objects and support automated searching
+    </p>
+    <div class="project-tags">
+        <span>Robotics</span>
+        <span>Arduino</span>
+        <span>Hardware</span>
+    </div>
+</article>
+
+<article class="featured-card">
+    <div class="project-number">03 / TECHNOLOGY</div>
+    <h3>AI Healthcare Project</h3>
+    <p>Exploring how AI and smart technologies could support healthcare monitoring</p>
+    <div class="project-tags">
+        <span>AI</span>
+        <span>Healthcare</span>
+        <span>Research</span>
+    </div>
+</article>
+
+
+<!--<button id="theme-toggle" type="button">
+    Dark Mode
+</button>-->
+
+
+
+
+
+<button id="back-to-top" aria-label="back to top" type="button">
+    Back to top
+</button>
+
+</section>
+<!--vintage lab archive-->
+<section id="vintage-lab" class="new-section">
+    <h2>The Vintage Lab Archive</h2>
+    <p>
+        Welcome to my old digital laboratory.
+        explore the archive and discover something new!
+    </p>
+    <div class="retro-computer">
+        <div class="terminal-header">
+            <span>MY LITTLE LAB - SYSTEM 1985</span>
+            <span>. ONLINE</span>
+
+        </div>
+        <div class="terminal-screen">
+            <p>Welcome to Vintage Lab!</p>
+            <p>System ready...</p>
+            <p>Type"help" to see available commands.</p>
+            <div  id="terminal-output"></div>
+            <div class="terminal-intput-area">
+                <span>guest@vintage-lab:~$</span>
+                <input
+                type="text"
+                id="terminal-input"
+                placeholder="Type a command..."
+>
+
+            </div>
+        </div>
+        <p class="terminal-footer">
+             EST. 1985 | VINTAGE DIGITAL ARCHIVE
+
+
+        </p>
+        <!--Never give up-->
+        <!--digital archive files-->
+        <div class="digital-archive">
+            
+            <h3>DIGITAL ARCHIVE FILES</h3>
+            <P>Select a file to explore:</P>
+                <div class="archive-files">
+                    <button class="archive-file" type="button">
+                        PROJECT_01
+                    </button>
+                    <!--secondddd-->
+                    <button class="archive-file" type="button">
+                        PROJECT_02
+                    </button>
+
+        </div>
+        <!--FILES WILL APPEAR HERE-->
+        <div id="archive-content">
+            <p>No file selected yet...</p>
+        </div>
+            </div>
+
+
+
+    </div>
+</section>
+
+
+<!--my journey-->
+<section id="my-journey" class="new-section">
+
+    <h2>The Evolution of My Ideas</h2>
+    <p class="journey-intro">
+        Every big idea starts with a small step.
+        Here is a little look at my journey.
+    </p>
+
+    <div class="journey-timeline">
+        <div class="journey-item">
+            <span class="journey-year">THE BEGINNING</span>
+            <h3>My First Interest</h3>
+            <p> My curiosity about technology and engineering inspired me to explore new ideas.</p>
+
+        </div>
+
+        <div class="journey-item">
+            <span class="journey-year">FIRST EXPERIMENT</span>
+            <h3>Turning ideas into projects</h3>
+            <p>
+                I started exploring robotics, Arduino, and smart technology projects.
+
+            </p>
+        </div>
+        <!--3-->
+        <div class="journey-item">
+            <span class="journey-years">LEARNING JOURNEY</span>
+            <h3>Building my skills</h3>
+            <p>I Continue learning programming, AI, and hardware.</p>
+
+
+
+        </div>
+        <div class="journey-item">
+            <span class="journey-year">FUTURE VISION</span>
+            <h3>What comes next?</h3>
+            <p>
+                My goal is to become a mechatronics engineer.
+            </p>
+        </div>
+
+
+
+    </div>
+</section>
+<section id="vintage-facts" class="new-section">
+    <h2>VINTAGE FACTS</h2>
+    <p>Discover interesting facts from the world of technology!</p>
+    
+    <div class="fact-box">
+        <div class="fact-header">
+            <span>OLD THECHNOLOGY ARCHIVE</span>
+            <span>FILE 001</span>
+
+        </div>
+        <div class="fact-content">
+            <h3>DID YOU KNOW?</h3>
+            <p id="vintage-fact-text">
+                The first computer mouse was made of wood!</p>
+
+
+            <button id="next-fact" type="button">
+                Discover Another fact
+            </button>
+
+        </div>
+
+        <p class="fact-footer">
+            MY LITTLE LAB | KNOWLEDGE ARCHIVE
+        </p>
+    </div>
+</section>
+
+<section id="creative-gallery" class="new-section">
+    <h2>CREATIVE PROJECT GALLERY</h2>
+    <P class="gallery-intro" > 
+        A collection of ideas and projects from my little world of technoogy.
+    </P>
+    <div class="project-gallery">
+
+        <div class="project-card"> 
+            <img src="c:\Users\ahmed fathy\OneDrive - Ezz Steel\Desktop\solar.jpn.jpg" alt="Solar Energy project">
+            <h3>smart solar energy system</h3>
+            <p>Exploring renewable energy and smart solar technology.</p>
+
+        </div>
+        <div class="project-card"> 
+
+            <img src="c:\Users\ahmed fathy\OneDrive - Ezz Steel\Desktop\sensor.jpg" alt="water sensor">
+            <h3>Water Sensor</h3>
+            <p>A sensor-based project designed to detect water
+        and monitor its presence using electronic components.</p>
+
+
+        </div>
+        <div class="project-card">
+
+            <img src="c:\Users\ahmed fathy\OneDrive - Ezz Steel\Desktop\diabetic.jpg" alt="AI-Powered Diabetic Foot Monitoring System">
+            <h3>AI-Powered Diabetic Foot Monitoring System</h3>
+            <p>An AI-based healthcare project designed to help monitor foot health for people with diabetes using smart sensors, image analysis, and early alerts.</p>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+        <div class="project-card"> 
+
+            <img src="c:\Users\ahmed fathy\OneDrive - Ezz Steel\Desktop\robot.jpg" alt="Metal Detection Robot">
+            <h3>Metal Detection Robot</h3>
+            <p>A robot designed to detect metal objects using sensors and Arduino technology</p>
+
+        </div>
+
+
+        
+    </div>
+</section>
+
+
+<!--opportunities-->
+<section id="opportunity-archive" class="nex-section">
+    <h2>THE OPPORTUNITY ARCHIVE</h2>
+    <p class="archive-intro">
+        Every experience is a new chapter in my learning journey.
+
+    </p>
+    <div class="opportunity-grid">
+        <div class="opportunity-card">
+            <span class="opportunity-number">FILE 001</span>
+            <span class="opportunity-type">SCHOLARSHIP</span>
+            <h3>Access Scolarship Program</h3>
+            <p>
+                A two-year program focused on English, Leadership, technology, and community service.
+
+            </p>
+
+        </div>
+        <div class="opportunity-card">
+            <span class="opportunity-number">FILE 002</span>
+            <span class="opportunity-type">TRAINING</span>
+            <h3>IEEE Training</h3>
+            <p>
+                Technical training focused on engineering
+                knowledge and exploring technology.
+            </p>
+        </div>
+        <div class="opportunity-card">
+            <span class="opportunity-number">FILE 003</span>
+            <span class="opportunity-type">COMPETITION</span>
+            <h3>The junior academy - NYAS</h3>
+            <p>An international science competition involving research and teamwork.</p>
+
+            
+        </div>
+        <div class="opportunity-card">
+            <span class="opportunity-number">FILE 004</span>
+            <span class="opportunity-type">TECHNOLOGY</span>
+            <h3>Technovation Girls</h3>
+            <p>A program introducing girls to technology,
+                innovation, and entrepreneurship.</p>
+
+        </div>
+        <div class="opportunity-card">
+            <span class="opportunity-number">FILE 005</span>
+            <span class="opportunity-type">VOLUNTEERING</span>
+            <h3>Google Event Organizer</h3>
+            <p>
+                Volunteering in Organization and helping coordinate ativities.
+
+            </p>
+        </div>
+    </div>
+</section>
+
+<!--behind-->
+<section id="behind-screen" class="nex-section">
+    <div class="behind-container">
+        <p class="behind-label">PERSONAL COMPUTER SYSTEM · 1990</p>
+        <h2>BEHIND THE SCREEN</h2>
+        <p class="behind-intro">
+            A little space to discover the person behind the projects.
+        </p>
+        <div class="computer-window">
+            <div class="computer-header">
+                <span>MY PERSONAL SPACE</span>
+                <span>. ONLINE</span>
+
+            </div>
+            <div class="computer-content">
+            <div class="computer-sidebar">
+                <div class="computer-icon">▣</div>
+                <p>WELCOME</p>
+                <span>USER: SALMA</span>
+            </div>
+            <div class="computer-menu">
+                <button class="screen-button active "data-panel="interests">
+                    <span>01.</span>My Interests
+                </button>
+                <button class="screen-button"
+                data-panel="learning">
+                <span>02.</span>Currently Learning
+            
+            </button>
+
+            <button class="screen-button"
+                data-panel="goals">
+                <span>03.</span> Future Goals
+            </button>
+            <button class="screen-button"
+                data-panel="facts">
+                <span>04.</span> Fun Facts
+            </button>
+
+
+            </div>
+
+            <div class="computer-display">
+            </div>
+                <div class="display-top">
+                    <span>SYSTEM FILE</span>
+                    <span id="file-number">FILE_001</span>
+                </div>
+
+                <div id="screen-panel">
+                    <h3>MY INTERESTS</h3>
+                    <p>
+                        I enjoy exploring technology and discovering how things work.
+                    </p>
+                    <ul>
+                        <li>Mechatronics Engineering</li>
+                        <li>Robotics and Hardware</li>
+                        <li>AI</li>
+                        <li>Creative Technology</li>
+                    </ul>
+                </div>
+                <div class="display-footer">
+                    MY LITTLE LAB © 2026
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="computer-footer">
+            <span>SYSTEM STATUS: ACTIVE</span>
+            <span>VERSION 1.0</span>
+        </div>
+
+
+    </div>
+    <p class="behind-note">
+        THANK YOU FOR EXPLORING MY LITTLE WORLD.
+
+    </p>
+
+    
+</section>
+
+
+
+<script src="script.js"></script>
+
+    </body>
+
+</html>
 
