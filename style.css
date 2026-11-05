@@ -956,12 +956,7 @@ body.dark-mode #theme-toggle {
     box-shadow: 8px 8px 0 #9b8764;
 }
 
-.project-card img {
-    width: 100%;
-    height: 460px;
-    object-fit: cover;
-    border: 2px solid #796345;
-}
+
 
 .project-card h3 {
     color: #493b2a;
