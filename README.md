@@ -1,22 +1,63 @@
-# My-Little-Lab
-My Little Lab is my personal portfolio website. I created it to share my projects, skills, interests, and experiences, and to show my learning journey in technology.
+# 🧪 My Little Lab
 
-I started with a simple portfolio structure and gradually added new sections and interactive features to make the website more interesting and personal.
+## About the Project
 
-The website includes an introduction about me, an About Me section, my skills, and a gallery where I display some of my projects, such as my Metal Detection Robot, Water Sensor, and AI-Powered Diabetic Foot Monitoring System.
+My Little Lab is my personal website where I introduce myself, share my skills, projects, and interests in technology, robotics, and mechatronics engineering.
 
-I also added creative sections like Vintage Lab Archive, where visitors can explore a vintage computer terminal, Vintage Facts, which shares interesting technology facts, and The Evolution of My Ideas, which shows different stages of my learning journey.
+I created this website to practice web development and share more about my learning journey and projects.
 
-There is also an Opportunity Archive to highlight some programs and training experiences I participated in, and a Behind the Screen section where visitors can learn more about my interests, current learning activities, and future goals.
+## 🌐 Live Demo
 
-I used HTML to build the website, CSS to design and style it, and JavaScript to add interactive features.
+You can visit my website here:
 
-I wanted to combine a traditional portfolio with my own creative ideas and an Antique-inspired design that brings together old computer aesthetics and modern technology.
+https://salmaahmed1026.github.io/My-Little-Lab/
 
-## How to Run
+## ✨ Features
 
-You can visit the live website using the demo link.
+- About Me section
+- Skills and Technologies
+- Projects section
+- Light and Dark Mode
+- Random Facts button
+- Dreams and Goals section
+- Contact section
+- Back to Top button
 
-You can also download or clone this repository, open the project folder, and run it by opening the index.html file in your browser.
+## 🛠️ Technologies Used
 
-No additional installation is required.
+- HTML
+- CSS
+- JavaScript
+
+## 💻 Projects
+
+Here are some of the projects featured on my website:
+
+### 1. Smart Solar Energy System
+Exploring renewable energy and smart solar technology.
+
+### 2. Water Sensor
+A sensor-based project designed to detect water and monitor its presence using electronic components.
+
+### 3. AI-Powered Diabetic Foot Monitoring System
+An AI-based healthcare project designed to help monitor foot health using smart sensors, image analysis, and early alerts.
+
+### 4. Metal Detection Robot
+A robot designed to detect metal objects using sensors and Arduino technology.
+
+## 📚 What I Learned
+
+While building this website, I practiced:
+
+- Writing HTML structure.
+- Styling pages using CSS.
+- Adding interactivity with JavaScript.
+- Creating a dark and light mode.
+- Working with buttons and website sections.
+- Publishing a website using GitHub Pages.
+
+## 👩‍💻 Developer
+
+Created by **Salma Ahmed**.
+
+This project is part of my journey in learning programming and exploring technology.
